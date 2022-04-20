@@ -20,6 +20,7 @@ func Hello(name string) (string, error) {
 
 // init sets initial values for variables used in the function.
 func init() {
+    fmt.Println("v1.0.1 released")
     rand.Seed(time.Now().UnixNano())
 }
 
